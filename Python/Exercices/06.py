@@ -1,0 +1,8 @@
+#Introduir un import i un descompte en tant per cent. Calcular l’import net.
+importe = float(input('Importe: '))
+descuento = input('Descuento: ')
+descuento = float(descuento)/100
+importnet = importe - (importe * descuento)
+print('Import:     '+str(importe)+'€\nDescompte:  '+str(descuento*100)+'%\nImport Net: '+str(importnet)+'€'
+	)
+
