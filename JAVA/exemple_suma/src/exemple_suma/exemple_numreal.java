@@ -1,0 +1,25 @@
+package exemple_suma;
+
+public class exemple_numreal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Declarem dos nombres reals
+		double valor1;
+		double valor2;
+		
+		double resultat;
+		
+		//assignem valor
+		valor1 =3.15;
+		valor2 =5.15;
+		
+		resultat = valor1+valor2;
+		
+		System.out.println("El resultat es: "+resultat);
+		
+		//No podem sumar dos REALS i assignarlos a un ENTER. Anem de Gran a petit
+		
+	}
+
+}
