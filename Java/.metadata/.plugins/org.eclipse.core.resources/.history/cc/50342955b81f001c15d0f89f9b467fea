@@ -1,0 +1,19 @@
+import java.util.Scanner;
+// Introduir els anys d’una persona i obtenir l’ equivalent en dies i segons
+
+public class Exercici07 {
+
+	public static void main(String[] args) {
+		//VAR & CONST
+		Scanner c = new Scanner(System.in);
+		int anys,segons,dies;
+		//INPUT
+		System.out.print("Anys:   ");anys = c.nextInt();
+		//CALCULS
+		dies = anys * 365;
+		segons = dies * 24 * 3600;		
+		//OUTPUT
+		System.out.println("Dies:   "+dies+"\nSegons: "+segons);
+	}
+
+}

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Exercici03 {
+
+	public static void main(String[] args) {
+	Scanner c = new Scanner(System.in);
+	double importe,descuento,preudescomptat;
+	//descuento = 20;
+	//importe = 10;
+	
+	System.out.print("Import: ");
+	importe = c.nextInt();
+	System.out.print("Descompte: ");
+	descuento = c.nextInt();
+	preudescomptat = importe - (importe * ( descuento / 100));
+	
+	System.out.print("Preu Descomptat: "+preudescomptat);
+	
+	
+	}
+
+}

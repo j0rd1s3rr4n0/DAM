@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Exercici14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Demanar un número enter que signifiqui una quantitat d’euros i digui quants bitllets de 5, 10,
+		//20,50 i 100 son equivalents
+		
+		Scanner e = new Scanner(System.in);
+		double cinc_eur,deu_eur,vint_eur,cincuanta_eur,cent_eur,billets;
+		cinc_eur =e.nextDouble();
+		billets_ = round(cinc_eur/(100*5));
+		deu_eur =e.nextDouble();
+		billets_ = round(deu_eur /(100*10));
+		vint_eur=e.nextDouble();
+		billets_ = round(vint_eur/(100*20));
+		cincuanta_eur=e.nextDouble();
+		billets_ = round(cincuant/(100*50));
+		cent_eur=e.nextDouble();
+		billets_ = round(cent_eur/(100*100));
+		
+	}
+
+}

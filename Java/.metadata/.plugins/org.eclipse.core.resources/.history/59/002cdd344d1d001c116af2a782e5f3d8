@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Exercici01 {
+	
+	public static void main(String[] args) {
+	
+		final double PI = 3.1415; // final = CONSTANT
+		double RADIO; //floats
+		double AREA;
+		System.out.print("Inserte un Numero: ");
+		Scanner e = new Scanner(System.in);
+		RADIO = e.nextInt();
+		AREA = PI * (RADIO * RADIO**2;
+		System.out.println("L'AREA ES: "+AREA);
+		
+	}
+}

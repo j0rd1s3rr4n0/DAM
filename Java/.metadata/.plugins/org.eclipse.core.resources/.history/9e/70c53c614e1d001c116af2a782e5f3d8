@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Exercici02 {
+
+	public static void main(String[] args) {
+	
+	double valor1,valor2;
+	
+	Scanner e = new Scanner(System.in);
+	System.out.println("Es Realitzara la seguent Operació: ")
+	valor1 = e.nextInt();
+	
+	valor2 = e.nextInt();
+	
+	}
+
+}

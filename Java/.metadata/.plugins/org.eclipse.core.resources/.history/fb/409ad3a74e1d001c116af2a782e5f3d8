@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Exercici02 {
+
+	public static void main(String[] args) {
+	
+	double valor1,valor2;
+	
+	Scanner e = new Scanner(System.in);
+	
+	System.out.println("Valor1: ");
+	valor1 = e.nextInt();
+	System.out.println("Valor2: ");
+	valor2 = e.nextInt();
+	System.out.print("Resultat de l'operació: "+valor1+" "+valor2);
+	}
+
+}

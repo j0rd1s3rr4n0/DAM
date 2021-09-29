@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Exercici02 {
+
+	public static void main(String[] args) {
+	
+	double valor1,valor2;
+	
+	Scanner e = new Scanner(System.in);
+	
+	System.out.print("Valor1: ");
+	valor1 = e.nextInt();
+	System.out.print("Valor2: ");
+	valor2 = e.nextInt();
+	
+	}
+
+}

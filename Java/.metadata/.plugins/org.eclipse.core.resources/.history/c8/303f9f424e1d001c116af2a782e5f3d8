@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Exercici02 {
+
+	public static void main(String[] args) {
+	
+	Scanner e = new Scanner(System.in); // A la espera del Input del Usuario
+	
+	double valor1,valor2;
+	
+	}
+
+}

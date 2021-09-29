@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+
+public class Exercici16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Volem fer un programa que ens serveixi per fer truites de patates per a N persones. Per fer-ho, a
+		// l’inici del programa ens preguntarà per quantes persones la volem. Per calcular-ho haurem de
+		// seguir les dades que trobem a internet relatives als ingredients per fer una truita per a 4 persones
+
+		double n,huevos,patatas,cebolla,aceite;
+		int pers;
+		String sal;
+
+		Scanner e = new Scanner(System.in);
+		pers=4;
+		
+		System.out.print("Per a quantes persones es la truita: ");
+		n = e.nextDouble();
+		//System.out.println(n);
+		huevos = Math.round((400.0/pers)*n);
+		//System.out.println(huevos);
+		patatas = Math.round((500.0/pers)*n);
+		//System.out.println(patatas);
+		cebolla = Math.round((1.0/pers)*n+0.5);
+		//System.out.println(cebolla);
+		sal = "Una pizca de sal";
+		//System.out.println(sal);
+		aceite = (2.0/4.0)*n;
+		System.out.println(aceite);
+
+		// 5 huevos
+		// 500 g de patatas
+		// 1 cebolla
+		// Sal
+		// 2 cucharadas de aceite de oliva virgen extra
+		//System.out.println(
+		//"Ingredientes:\n - "+
+		//huevos+" Huevos\n - "+
+		//patatas+"g de Patatas\n - "+
+		//cebolla+" quarto/s de cebolla.\n - "+
+		//sal+"\n - "+
+		//aceite+" Cucharadas de aceite");
+		e.close();
+	}
+
+}

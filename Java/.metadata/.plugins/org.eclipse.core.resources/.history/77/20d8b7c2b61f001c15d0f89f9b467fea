@@ -1,0 +1,14 @@
+// Si considerem que la nota mínima que podem treure als exàmens per fer mitja és un 3,5 ,
+		// i que conten com un 60% de la nota final.
+		// Què he de treure en els exercicis de cara a aprovar si trec el mínim de 3’5 en el examen?
+public class Exercici11 {
+
+	public static void main(String[] args) {
+		double examen,exercicis;
+		examen = 3.5;
+		// examen = (25 - 2* examen ) /3
+		exercicis = 34;
+		System.out.println("Has de treure als exercicis un: "+exercicis);
+	}
+
+}

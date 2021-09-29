@@ -1,0 +1,15 @@
+import java.util.Scanner;
+// Realitzar un algorisme perquè calculi l’àrea d’untriangle
+public class Exercici09 {
+
+	public static void main(String[] args) {
+		Scanner e = new Scanner(System.in);
+		double b,h,area;
+		System.out.print("Base:   ");b = e.nextDouble();
+		System.out.print("Altura: ");h = e.nextDouble();
+		
+		area = (b * h)/2
+
+	}
+
+}

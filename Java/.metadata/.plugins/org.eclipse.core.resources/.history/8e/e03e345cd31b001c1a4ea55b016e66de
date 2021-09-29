@@ -1,0 +1,16 @@
+package exemple_suma;
+import java.util.*;
+public class interaccio_usuari {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x;
+		double y;
+		Scanner variable = new Scanner(System.in);
+		x = variable.nextInt();
+		y = variable.nextDouble();
+		System.out.println(x+3);
+		
+	}
+
+}

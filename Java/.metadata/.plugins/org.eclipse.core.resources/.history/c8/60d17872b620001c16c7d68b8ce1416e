@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Exercici08 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * Tenint en compte la següent equació x=10*a/b. Demanar per teclat el valor de a i b per a
+		 * 	calcular el valor de X, tenint en compte que la divisió per cero donaria un error
+		 */
+		Scanner write = new Scanner(System.in);
+		double x,a,b;
+		
+		System.out.print("Valor de a: ");
+		a = write.nextDouble();
+		System.out.print("Valor de b: ");
+		b = write.nextDouble();
+		
+		x =10*a/b;
+		if (a != 0 || b != 0) {
+		System.out.println("X = "+x);
+		}else {
+			System.out.println("No se puede dividir entre Zero");
+		}
+	}
+
+}

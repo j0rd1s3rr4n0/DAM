@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Exercici02 {
+
+	public static void main(String[] args) {
+
+	double valor1,valor2;
+	
+	}
+
+}

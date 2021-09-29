@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Exercici05 {
+
+	public static void main(String[] args) {
+		double nota1,nota2,nota3,mitjana;
+		Scanner e = new Scanner(System.in); //*!*!*!*!*!*!*!*!*!*!*!*!*!*
+		
+		System.out.print("Nota 1:       ");nota1 = e.nextDouble();
+		System.out.print("Nota 2:       ");nota2 = e.nextDouble();
+		System.out.print("Nota 3:       ");nota3 = e.nextDouble();
+		mitjana = (nota1+nota2+nota3)/3;
+		System.out.println("Nota Mitjana: "+mitjana);
+	}
+
+}

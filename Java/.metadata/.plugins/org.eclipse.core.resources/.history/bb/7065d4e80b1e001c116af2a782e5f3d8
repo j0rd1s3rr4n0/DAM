@@ -1,0 +1,17 @@
+
+public class Exercici10 {
+
+	public static void main(String[] args) {
+		//Si haguéssiu invertit 100 euros en Bitcoins en els seus inicis..... com de rics serieu ara?.
+		double btc_inicial,btc_actual,wallet_inicial,wallet_final,inversio;
+		inversio = 100;
+		btc_inicial = 96.90; //Abril de 2010 --> $0.003 --> 0.00256 €
+		wallet_inicial = inversio / btc_inicial;
+		btc_actual = 36308.99;
+		wallet_final = wallet_inicial * btc_actual;
+		
+		System.out.println("Wallet Balance: "+wallet_final);
+		
+	}
+
+}

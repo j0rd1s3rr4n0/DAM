@@ -1,0 +1,10 @@
+package exemple_suma;
+
+public class interaccio_usuari {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

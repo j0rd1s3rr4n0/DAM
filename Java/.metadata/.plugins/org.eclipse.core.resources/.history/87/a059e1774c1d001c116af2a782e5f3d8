@@ -1,0 +1,13 @@
+
+public class Exercici01 {
+	
+	public static void main(String[] args) {
+	
+		final double PI = 3.1415; // final = CONSTANT
+		double RADIO; //floats
+		System.out.print("Inserte un Numero: ")
+		
+		AREA = PI * RADIO ** 2
+		
+	}
+}

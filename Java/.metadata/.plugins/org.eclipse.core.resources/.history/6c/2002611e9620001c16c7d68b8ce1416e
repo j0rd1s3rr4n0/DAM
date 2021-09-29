@@ -1,0 +1,41 @@
+import java.util.Scanner;
+public class Exercici15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Demanar un número enter que signifiqui una quantitat d’euros i digui la descomposició en bitllets
+		//de 5,10,20,50 i 100.
+		double euro,valor,conversion,restante;
+		//DEFINIR VARIABLES
+		Scanner input = new Scanner(System.in);
+		System.out.println("Euro: ");
+		euro = input.nextDouble();
+		
+		valor = 100;
+		conversion = Math.round((euro/valor)-0.5);
+		restante = euro/valor - conversion;
+		System.out.println(conversion+" Billetes de "+valor+"€ | "+euro+" euro");
+		euro = restante*valor;
+		
+		valor = 50;
+		conversion = Math.round((euro/valor)-0.5);
+		restante = euro/valor - conversion;
+		System.out.println(conversion+" Billetes de "+valor+"€ | "+euro+" euro");
+
+		valor = 20;
+		conversion = Math.round((euro/valor)-0.5);
+		restante = euro/valor - conversion;
+		System.out.println(conversion+" Billetes de "+valor+"€ | "+euro+" euro");
+		
+		valor = 10;
+		conversion = Math.round((euro/valor)-0.5);
+		restante = euro/valor - conversion;
+		System.out.println(conversion+" Billetes de "+valor+"€ | "+euro+" euro");
+		
+		valor = 5;
+		conversion = (int) Math.round((euro/valor)-0.5);
+		restante = euro/valor - conversion;
+		System.out.println(conversion+" Billetes de "+valor+"€ | "+euro+" euro");
+	}
+
+}

@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Exercici03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/* Llegir un número pel teclat, si aquest es més gran de 20 mostrar com a resultat el número
+		elevat a dos en cas contrari mostrar com a resultat el número elevat a 3.*/
+		Scanner input = new Scanner(System.in);
+		
+
+		double valor1,valor2;
+
+		System.out.print("1r Numero: ");
+		valor1 = input.nextDouble();
+		System.out.print("2n Numero: ");
+		valor2 = input.nextDouble();
+		
+		
+	}
+}

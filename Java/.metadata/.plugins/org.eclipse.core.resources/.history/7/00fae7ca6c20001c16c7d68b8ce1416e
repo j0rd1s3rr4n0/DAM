@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class Exercici01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double valor;
+
+		Scanner e = new Scanner(System.in);
+
+		System.out.print("Introdueix Numero: ");
+		valor = e.nextInt();
+
+		if(valor >= 1){
+			System.out.println("Positiu");
+		}
+		else {
+			if(-1 >= valor){
+				System.out.println("Negatiu");
+			}
+		}
+
+
+
+
+	}
+
+}

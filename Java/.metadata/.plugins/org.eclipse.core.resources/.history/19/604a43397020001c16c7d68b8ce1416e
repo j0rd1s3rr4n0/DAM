@@ -1,0 +1,44 @@
+import java.util.Scanner;
+public class Exercici15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Demanar un número enter que signifiqui una quantitat d’euros i digui la descomposició en bitllets
+		//de 5,10,20,50 i 100.
+		
+		//DEFINIR VARIABLES
+		int eur,cinc_eur,deu_eur,vint_eur,cincuanta_eur,cent_eur,euro;
+		int bitllets;
+		//DEFINIR VALORS
+		cinc_eur = 5;
+		deu_eur = 10;
+		vint_eur = 20;
+		cincuanta_eur = 50;
+		cent_eur = 100;
+		
+		Scanner e = new Scanner(System.in);
+		//DEMANAR EUROS
+		System.out.print("Inserte EUR: ");
+		eur = e.nextInt();
+		euro = eur;
+		euro-=100-(eur/100);
+		System.out.println("Euro: "+eur);
+		euro-=50-(eur/50);
+		System.out.println("Euro: "+eur);
+		/*
+		System.out.println("Es equivalente a: ");
+		//CALCULAR I IMPRIMIR PER PANTALLA A QUANTS BITLLETS EQUIVAL
+		bitllets = (int) Math.round((eur/cinc_eur)-0.5);
+		System.out.println("Bitllets de "+Math.round(cinc_eur)+": "+bitllets);
+		bitllets = (int) Math.round((eur/deu_eur)-0.5);
+		System.out.println("Bitllets de "+Math.round(deu_eur)+": "+bitllets);
+		bitllets = (int) Math.round((eur/vint_eur)-0.5);
+		System.out.println("Bitllets de "+Math.round(vint_eur)+": "+bitllets);
+		bitllets = (int) Math.round((eur/cincuanta_eur)-0.5);
+		System.out.println("Bitllets de "+Math.round(cincuanta_eur)+": "+bitllets);
+		bitllets = (int) Math.round((eur/cent_eur)-0.5);
+		System.out.println("Bitllets de "+Math.round(cent_eur)+": "+bitllets);
+		*/
+	}
+
+}

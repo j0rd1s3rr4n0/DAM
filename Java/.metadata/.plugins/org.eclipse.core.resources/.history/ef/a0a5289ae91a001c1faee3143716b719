@@ -1,0 +1,36 @@
+package exemple_suma;
+
+public class exemplesuma {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*Declaració
+		 * [TIPUS VAIABLE] NOm_Variable;
+		 *Assignació
+		 *Nom:variable=valor;
+		 *valor serà un element del domini del tipus que definim
+		 *
+		 *Agada nombre naturals des del -99000 fina el 99000
+		 *
+		 *Operacions que podem fer amb Integers:
+		 *	Aritmètiques: +,-,/,*,% (RESIDU)
+		 *Lòguiques: >, >=, <=,
+		 *== (Igual)
+		 *!= (Diferent)
+		 *El resultat de les operacions lògiques son Veritat o Mentida (TRUE, FALSE)
+		 */
+
+		//Declara una variable (Li dic al computer que farem servir 2 variables del tipus Enter
+		int valor_1;
+		int valor_2;
+		int resultat;
+		String missatgeResultat;
+		
+		//Inicialitzar els valors de variables
+		int valor_1=0;
+		int valor_2=0;
+		int resultat=0;
+		
+	}
+}

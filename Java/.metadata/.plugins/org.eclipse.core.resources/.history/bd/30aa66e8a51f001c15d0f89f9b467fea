@@ -1,0 +1,11 @@
+
+public class Exercici12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String a,b,c,temp1,temp2;
+		a="Hola";b="com";c="estas?";
+		temp1
+	}
+
+}

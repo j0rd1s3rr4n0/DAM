@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Exercici05 {
+
+	public static void main(String[] args) {
+		double nota1,nota2,nota3,mitjana;
+		Scanner e = new Scanner(System.in); //*!*!*!*!*!*!*!*!*!*!*!*!*!*
+		
+		System.out.print();
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package exemple_suma;
+import java.util.Scanner;
+public class interaccio_usuari {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x;
+		double y;
+		System.out.print("Inserte un Numero: ");
+		Scanner e = new Scanner(System.in);
+		x = e.nextInt();
+		System.out.println(x);
+		
+	}
+
+}

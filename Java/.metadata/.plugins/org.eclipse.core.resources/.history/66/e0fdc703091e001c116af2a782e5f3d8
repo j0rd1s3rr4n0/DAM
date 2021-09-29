@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Exercici08 {
+
+	public static void main(String[] args) {
+		// Intercanviar els valors de dues variables prèviament introduïdes
+		Scanner e = new Scanner(System.in);
+		String var1 , var2 ;
+		
+		variable1 = e.next();
+		variable2 = e.next();
+		
+		
+	}
+
+}

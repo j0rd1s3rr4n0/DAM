@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Exercici06 {
+
+	public static void main(String[] args) {
+		Scanner e = new Scanner(System.in);
+		double importe,descuento,importnet;
+		//#Introduir un import i un descompte en tant per cent. Calcular l’import net.
+		//importe = float(input('Importe: '))
+		System.out.println("Importe:   ");importe = e.nextDouble();
+		//descuento = input('Descuento: ')
+		System.out.println("Descuento: ");descuento = e.nextDouble();
+		//descuento = float(descuento)/100
+		//importnet = importe - (importe * descuento)
+		//print('Import:     '+str(importe)+'€\nDescompte:  '+str(descuento*100)+'%\nImport Net: '+str(importnet)+'€')
+
+
+	}
+
+}

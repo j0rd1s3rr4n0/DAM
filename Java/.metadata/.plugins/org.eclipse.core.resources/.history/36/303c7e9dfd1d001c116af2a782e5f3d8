@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Exercici04 {
+	public static void main(String[] args) {
+		Scanner c = new Scanner(System.in);
+		String nom;
+		System.out.print("Nom: ");nom = c.next(); // Imprimeix Nom: i esta a l'espera de la cadena de text
+		
+		System.out.println("Hola, "+nom+"!");
+		
+	}
+}

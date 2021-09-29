@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Exercici01 {
+	
+	public static void main(String[] args) {
+	
+		final double PI = 3.1415; // final = CONSTANT
+		double RADIO, AREA; //floats
+		
+		System.out.print("Inserte el RADIO: "); // 
+		Scanner e = new Scanner(System.in);
+		RADIO = e.nextInt();
+		
+		//CALCULAR AREA (FORMULA)
+		AREA = PI * (RADIO * RADIO);
+		// area = pi * r^2
+		// area = pi * ( r * r )
+		
+		System.out.println("L'AREA ES: "+AREA);
+	}
+}

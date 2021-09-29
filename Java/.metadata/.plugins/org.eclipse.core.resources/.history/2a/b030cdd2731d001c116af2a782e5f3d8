@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Exercici02 {
+
+	public static void main(String[] args) {
+	//DECLARAR VARIABLES
+	double a,b,temp,resultat;
+	
+	Scanner c = new Scanner(System.in);
+	
+	//
+	System.out.print("Valor1: ");
+	a = c.nextInt();
+	//a = temp;
+	
+	System.out.print("Valor2: ");
+	
+	b = c.nextInt();
+	//b = temp;
+
+	resultat = (a + b);
+	
+	System.out.println("Resultat de l'operació: "+a+" + "+b);
+	
+	// REALITZAR CALCUL
+
+	
+	
+	}
+
+}

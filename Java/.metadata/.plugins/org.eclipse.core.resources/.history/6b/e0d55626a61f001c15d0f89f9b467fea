@@ -1,0 +1,18 @@
+
+public class Exercici12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String a,b,c,temp1;
+		a="Hola";
+		b="com";
+		c="estas?";
+		System.out.println("A:"+a+"\nB:"+b+"\nC:"+c);
+		temp1=a;
+		a = c;
+		c = b;
+		b = temp1;
+		System.out.println("A:"+a+"\nB:"+b+"\nC:"+c);
+	}
+
+}

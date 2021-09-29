@@ -1,0 +1,13 @@
+import java.Math;
+import java.util.Scanner;
+public class Exercici13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//A partir d’un valor X , calcular el valor d’ aquest polinomi X^3+ 3X^2+ 7	X+7
+		double x,resultat;
+		resultat = (Math.pow(x,3))+(3 * Math.pow(x,2))+(7 * x) + 7
+		
+	}
+
+}

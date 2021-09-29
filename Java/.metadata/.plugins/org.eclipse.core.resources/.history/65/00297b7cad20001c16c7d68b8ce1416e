@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Exercici04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * . Introduir 4 números i dir si la suma dels dos primers és més gran, igual o més petit que la
+		 * suma dels 2 següents.
+		 */
+		Scanner input = new Scanner(System.in);
+		double valor1,valor2;
+		System.out.print("1r Numero: ");
+		valor1 = input.nextDouble();
+		System.out.print("2n Numero: ");
+		valor2 = input.nextDouble();
+		
+	}
+
+}

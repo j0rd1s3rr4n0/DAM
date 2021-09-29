@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Exercici02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Introduir dos números per teclat i indicar quin és més gran dels dos.
+		Scanner input = new Scanner(System.in);
+		double valor1,valor2;
+		System.out.print("1r Numero: ");
+		valor1 = input.nextDouble();
+		System.out.print("2n Numero: ");
+		valor2 = input.nextDouble();
+		
+		if(valor1 > valor2) {System.out.println("El valor mes alt es: "+valor1);}
+		else {
+			if(valor2 > valor1) {System.out.println("El valor mes alt es: "+valor2);}
+			else {System.out.println("Els 2 valors son iguals "+valor1+" = "+valor2);}
+		}
+		
+		input.close();
+	}
+
+}

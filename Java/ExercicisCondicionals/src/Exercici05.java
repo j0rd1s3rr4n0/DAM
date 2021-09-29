@@ -1,0 +1,34 @@
+import java.util.Scanner;
+public class Exercici05 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * Elaborar un programa que determini en una variable MIN el més petit dels valors de 3
+		 * variables A,B,C
+		 */
+		double min,a,b,c;
+		a = 3.0;
+		b = 2.0;
+		c = 1.0;
+		min = 0;
+		Scanner input = new Scanner(System.in);
+		if (a < b && a < c) {
+			min = a;
+		}
+		else{
+			if (b < c && b < a){
+				min=b;}
+			else {
+				if (c < a && c < b){
+					min=c;	}
+				else {System.out.println("Un o mes valors son iguals");}
+			}
+			if (min != 0) {
+				System.out.println("Valor minim: "+min);
+			}
+		}
+		
+	}
+
+}

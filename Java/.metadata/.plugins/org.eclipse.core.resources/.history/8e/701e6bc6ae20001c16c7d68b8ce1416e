@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Exercici05 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * Elaborar un programa que determini en una variable MIN el més petit dels valors de 3
+		 * variables A,B,C
+		 */
+		double MIN,A,B,C;
+		
+		Scanner input = new Scanner(System.in);
+		if (A > B) && (A > C){
+			MIN = A;
+		}
+		
+	}
+
+}

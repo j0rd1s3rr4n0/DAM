@@ -1,0 +1,19 @@
+
+public class Exercici03 {
+
+	public static void main(String[] args) {
+	
+	double importe,descuento,preudescomptat;
+	descuento = 20;
+	importe = 10;
+	System.out.print("Import: ");
+	
+	System.out.print("Descompte: ");
+	
+	preudescomptat = importe * ( descompte / 100);
+	
+	System.out.print("Preu Descomptat: ");
+	
+	}
+
+}

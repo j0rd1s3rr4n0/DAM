@@ -1,0 +1,13 @@
+
+public class Exercici08 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * Tenint en compte la següent equació x=10*a/b. Demanar per teclat el valor de a i b per a
+		 * 	calcular el valor de X, tenint en compte que la divisió per cero donaria un error
+		 */
+			
+	}
+
+}

@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class Exercici07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner entrada = new Scanner(System.in);
+		double num1,num2,num3;
+		
+		System.out.print("Num1: ");
+		num1 = entrada.nextDouble();
+		System.out.print("Num2: ");
+		num2 = entrada.nextDouble();
+		System.out.print("Num3: ");
+		num3 = entrada.nextDouble();
+		if (a < b && a < c && a < d) {
+			min = a;
+		}else{
+			if (b < c && b < a && b < d){
+				min=b;
+			}else {
+				if (c < a && c < b && c < d){
+					min=c;
+				}else {
+					if (d < a && d < b && d < c){
+						min = d;
+						}else {
+							System.out.println("Un o mes valors son iguals");
+						}
+				}
+			}
+		}
+			if (min != 0) {
+				System.out.println("Valor minim: "+min);
+			}
+		}
+
+	}
+
+}

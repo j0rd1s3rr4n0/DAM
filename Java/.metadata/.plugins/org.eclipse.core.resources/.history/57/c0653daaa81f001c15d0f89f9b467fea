@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Exercici14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Demanar un número enter que signifiqui una quantitat d’euros i digui quants bitllets de 5, 10,
+		//20,50 i 100 son equivalents
+		
+		Scanner e = new Scanner(System.in);
+		
+		 billets round()
+		
+	}
+
+}

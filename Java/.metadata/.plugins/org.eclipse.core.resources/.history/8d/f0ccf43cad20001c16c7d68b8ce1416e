@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Exercici03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/* Llegir un número pel teclat, si aquest es més gran de 20 mostrar com a resultat el número
+		elevat a dos en cas contrari mostrar com a resultat el número elevat a 3.*/
+		Scanner input = new Scanner(System.in);
+		
+
+		double valor;
+
+		System.out.print("Numero: ");
+		valor = input.nextDouble();
+		
+		if (valor > 20) {
+			System.out.println("Resultat: "+(int)Math.pow(valor, 2));
+		}
+		else {
+			System.out.println("Resultat: "+(int)Math.pow(valor, 3));
+		}
+		
+	}
+}

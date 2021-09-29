@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Exercici06 {
+	public static void main(String[] args) {
+		/*
+		Elaborar un programa que determini en una variable MIN el més petit dels valors de 4
+		variables A,B,C,D
+		*/
+
+	}
+}

@@ -1,0 +1,14 @@
+
+public class Exercici03 {
+
+	public static void main(String[] args) {
+	
+	double importe,descuento;
+	System.out.print("Import: ");
+	
+	System.out.print("Descompte: ");
+	
+	preudescomptat = importe * ( descompte / 100)
+	}
+
+}

@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Exercici09 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * Fer un algorisme que serveixi tant per calcular l’àrea d’un rectangle com el perímetre d’un
+		 * rectangle. Se li demanarà a l’usuari el valor dels dos costats i quina operació vol realitzar
+		 * (Aàrea i P-perímetre) mostrant el resultat segons l’opció indicada per l’usuari.
+		 */
+		Scanner write = new Scanner(System.in);
+	}
+
+}

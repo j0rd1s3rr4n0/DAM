@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Exercici15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Demanar un número enter que signifiqui una quantitat d’euros i digui la descomposició en bitllets
+		//de 5,10,20,50 i 100.
+		double eur;
+		Scanner e = new Scanner(System.in);
+		System.out.print("Inserte EUR: ");
+		eur = e.nextDouble();
+		
+		System.out.println("EUR: "+eur);
+	}
+
+}

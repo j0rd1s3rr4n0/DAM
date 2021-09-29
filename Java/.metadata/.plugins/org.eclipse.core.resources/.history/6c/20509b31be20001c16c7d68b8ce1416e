@@ -1,0 +1,49 @@
+import java.util.Random;
+import java.util.Scanner;
+public class Exercici12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/* L’ordinador pensa un número entre 1 i 10, l’usuari l’intenta encertar, si es així mostrar un
+		 * missatge d’enhorabona en cas contrari indicar que ha fallat.
+		 */
+		int randnum,choose,vides;
+		vides = 3;
+		Random rand = new Random();
+		Scanner input = new Scanner(System.in);
+		
+		randnum = rand.nextInt(9)+1;
+		System.out.print("Number: ");choose = input.nextInt();
+		
+		if(vides > 0) {
+			if (choose == randnum) {
+				System.out.println("Enhorabona! El nombre correste es: "+randnum);
+			}
+			else {
+				vides-=1;
+				System.out.println("Has Fallat. El nombre correcte es: "+randnum+"\n Vides Restants: "+vides);
+				System.out.print("Number: ");choose = input.nextInt();
+				if (choose == randnum) {
+					System.out.println("Enhorabona! El nombre correste es: "+randnum);
+				}
+				else {
+					vides-=1;
+					System.out.println("Has Fallat.\n Vides Restants: "+vides);
+					System.out.print("Number: ");choose = input.nextInt();
+					if (choose == randnum) {
+						System.out.println("Enhorabona! El nombre correste es: "+randnum);
+					}
+					else {
+						System.out.println("Has Fallat. El nombre correcte es: "+randnum+"\n Vides Restants: "+vides);
+				}			
+				
+			}
+			}
+		}
+		
+		
+		
+		
+
+	}
+}

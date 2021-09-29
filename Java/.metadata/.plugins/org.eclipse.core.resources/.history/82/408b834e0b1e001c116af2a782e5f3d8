@@ -1,0 +1,18 @@
+
+public class Exercici10 {
+
+	public static void main(String[] args) {
+		//Si haguéssiu invertit 100 euros en Bitcoins en els seus inicis..... com de rics serieu ara?.
+		// 1 Bitcoin és igual a 36.308,99 EUR
+		double btc_inicial,btc_actual,wallet_inicial,wallet_final;
+		btc_inicial = 96.90;
+		wallet_inicial = inversio / btc_inicial;
+		btc_actual = 36308.99;
+		wallet_final;
+		
+		
+		
+		
+	}
+
+}

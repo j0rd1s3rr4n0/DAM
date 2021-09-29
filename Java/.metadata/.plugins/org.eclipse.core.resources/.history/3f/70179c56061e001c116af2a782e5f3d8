@@ -1,0 +1,10 @@
+
+public class Exercici07 {
+
+	public static void main(String[] args) {
+		// Introduir els anys d’ una persona i obtenir l’ equivalent en dies isegons
+		int anys,segons,dies;
+
+	}
+
+}

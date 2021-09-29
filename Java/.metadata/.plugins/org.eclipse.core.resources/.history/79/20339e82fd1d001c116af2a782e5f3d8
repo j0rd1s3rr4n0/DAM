@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Exercici04 {
+	public static void main(String[] args) {
+		Scanner c = new Scanner(System.in);
+		String nom;
+		System.out.print("Nom: ");nom = c.next();
+		System.out.println("Hola, "+nom+"!");
+		
+	}
+}

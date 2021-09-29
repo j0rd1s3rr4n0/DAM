@@ -1,0 +1,13 @@
+
+public class Exercici14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean option;
+		char a;
+		a = 'a';
+		option = a.isUpperCase();
+		System.out.println(option);
+	}
+
+}
