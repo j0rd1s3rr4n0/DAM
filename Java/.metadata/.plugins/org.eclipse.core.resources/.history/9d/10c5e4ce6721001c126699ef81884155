@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Exercici15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String opcion;
+		int vidas;
+		
+		Scanner e = new Scanner(System.in);
+		
+		while(vidas > 0) {
+			System.out.print("Opciones:\nA) Piedra\nB) Papel\nC) Tijeras\n> ");
+			
+		}
+	}
+
+}

@@ -20,6 +20,7 @@ public class Exercici13 {
 			
 			if (choose == randnum) {
 				System.out.println("\nEnhorabona! El nombre correste es: "+randnum);
+				break;
 			}else {
 				pista ="";
 				if (choose > randnum) {

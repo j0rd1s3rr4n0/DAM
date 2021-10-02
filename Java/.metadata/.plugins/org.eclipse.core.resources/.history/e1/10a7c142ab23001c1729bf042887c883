@@ -1,0 +1,57 @@
+import java.util.Scanner;
+import java.util.Random;
+public class Exercici15 {
+
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        int vidas, pc_choose,user_choose,vidas_pc;
+        vidas = 3;
+        vidas_pc = 3;
+
+        Random rand = new Random();
+        Scanner input = new Scanner(System.in);
+
+
+        while (0 < vidas && 0 < vidas_pc) {
+        	pc_choose = (int) rand.nextInt(3);
+            System.out.print("=============================\n   PIEDRA  PAPEL  TIJERAS    \n=============================\nOpciones:	0) Piedra	1) Papel	2) Tijeras\n> ");
+
+            user_choose = input.nextInt();
+
+            if (user_choose >= 0 && 3 > user_choose) {
+
+                if (pc_choose == user_choose) {
+
+                    System.out.println("EMPATE");
+                    System.out.println("VIDAS JUGADOR: " + vidas);
+                    System.out.println("VIDAS ORDENADOR: " + vidas_pc);
+                    continue;
+
+                } else if ((pc_choose == 0 && user_choose == 2) || (pc_choose == 1 && user_choose == 0) || (pc_choose == 2 && user_choose == 1)) {
+
+                    vidas--;
+                    System.out.println("VIDAS JUGADOR: " + vidas);
+                    System.out.println("VIDAS ORDENADOR: " + vidas_pc);
+
+
+                } else {
+
+                    vidas_pc--;
+                    System.out.println("VIDAS JUGADOR: " + vidas);
+                    System.out.println("VIDAS ORDENADOR: " + vidas_pc);
+
+                }
+
+            } else {
+
+                continue;
+
+            }
+
+        }
+
+        System.out.println("SE ACABO EL JUEGO\nRESULTADO:\nVIDAS JUGADOR: " + vidas + "\nVIDAS ORDENADOR: " + vidas_pc + "\n\n\n\n");
+
+    }
+
+}

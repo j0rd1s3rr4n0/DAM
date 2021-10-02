@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Exercici14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner e = new Scanner(System.in);
+		
+		char a;
+		a = e.next().charAt(0);
+		
+		int ascii=a;
+		
+		System.out.println(ascii);
+		
+		if ( '@' < a && a > '[' ) {
+			System.out.println("Caracter: "+a+"Esta en Mayusculas");
+		}
+		else if ( '`' < a && a > '{' ) {
+			
+		}
+		
+		
+	}
+
+}

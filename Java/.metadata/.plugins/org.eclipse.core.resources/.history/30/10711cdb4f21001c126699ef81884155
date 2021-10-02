@@ -1,0 +1,16 @@
+
+public class Exercici14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner e = new Scanner(System.in);
+		
+		char a;
+		a = e.next();
+		
+		
+		
+	}
+
+}

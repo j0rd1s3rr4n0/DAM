@@ -1,0 +1,28 @@
+import java.util.Scanner;
+import java.util.Random;
+public class Exercici15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String opcion;
+		int vidas;
+		int randnum;
+		int pc_choose;
+		vidas = 3;
+		Random rand = new Random();
+		Scanner input = new Scanner(System.in);
+			
+		randnum = (int) rand.nextInt(3);
+		
+		while (0 < vidas) {
+			System.out.print("Opciones:\nA) Piedra\nB) Papel\nC) Tijeras\n> ");
+			System.out.println(randnum);
+			System.out.println(vidas);
+			vidas=0;
+			if 
+		
+			
+		}
+	}
+
+}

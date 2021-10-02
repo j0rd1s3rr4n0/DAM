@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Exercici15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner e = new Scanner(System.in);
+		System.out.println("Opciones:\nA) Piedra\nB) Papel\nC) Tijeras\n> ");
+	}
+
+}

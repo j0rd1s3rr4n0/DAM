@@ -1,0 +1,35 @@
+import java.util.Scanner;
+import java.util.Random;
+public class Exercici15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String opcion;
+		int vidas;
+		int randnum;
+		String pc_choose;
+		vidas = 3;
+		Random rand = new Random();
+		Scanner input = new Scanner(System.in);
+			
+		randnum = (int) rand.nextInt(3);
+		
+		while(0 < vidas) {
+			System.out.print("Opciones:\nA) Piedra\nB) Papel\nC) Tijeras\n> ");
+			System.out.print(randnum);
+			System.out.print(vidas);
+			vidas=0;
+		if (randnum < 10) {
+			pc_choose = 1; //"Piedra";
+		}
+		else if ( 20 < randnum && randnum > 10) {
+			pc_choose =2; //"Papel";
+		}
+		else if ( 20 < randnum  ) {
+			pc_choose =3; //"Tijeras";
+		}
+			
+		}
+	}
+
+}

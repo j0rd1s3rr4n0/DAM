@@ -1,0 +1,51 @@
+import java.util.Scanner;
+import java.util.Random;
+public class Exercici15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int vidas;
+		int pc_choose;
+		int resultado;
+		int user_choose;
+		int vidas_pc;
+		vidas = 3;
+		vidas_pc = 3;
+		
+		Random rand = new Random();
+		Scanner input = new Scanner(System.in);
+		
+			
+		//pc_choose = (int) rand.nextInt(3);
+		pc_choose = 2;
+		
+		while (0 < vidas && 0 < vidas_pc) {
+			
+			System.out.print("Opciones:\n1) Piedra\n2) Papel\n3) Tijeras\n> ");
+			user_choose = input.nextInt();
+			
+			System.out.println(pc_choose);
+
+			vidas=0;
+			
+			resultado = pc_choose + user_choose;
+			
+			System.out.println(resultado);
+			
+			if (pc_choose  == user_choose){
+				System.out.println("EMPATE");
+				System.out.println("VIDAS JUGADOR: "+vidas);
+				System.out.println("VIDAS ORDENADOR: "+vidas);
+				continue;
+			}
+			else if ((pc_choose ==0 && user_choose ==2 )||(pc_choose == 1 && user_choose == 0)||(pc_choose == 2 && user_choose ==1)){
+				System.out.println("VIDAS JUGADOR: "+vidas);			
+			}
+			else {
+				System.out.println("ORDENADOR GANA");
+				System.out.println("JUGADOR GANA");
+			}
+			
+		}
+	}
+}

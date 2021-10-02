@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Exercici14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner e = new Scanner(System.in);
+		
+		boolean option;
+		String a;
+		a = e.next();
+		
+		if ( '@' < a) && (a > '[' ) {
+			option = true;
+		}
+		else if ( '`' < a && a > '{' ) {
+			option = false;
+		}
+		
+		
+	}
+
+}
