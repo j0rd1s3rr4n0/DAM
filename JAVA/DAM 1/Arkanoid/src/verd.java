@@ -1,0 +1,20 @@
+import java.awt.Color;
+import java.awt.Graphics2D;
+
+public class verd  extends ladrillo {
+
+	public verd(int x, int y, int with, int height, int vides) {
+		super(x, y, with, height, vides);
+	}	
+	@Override
+	void morir(int i) {
+		Game.setScore(Game.getScore()+Game.BONUS_BREAK_BLOCK);
+		System.out.println("GREEN BLOCK DESTROYED");
+
+	}
+	@Override
+	void paint(Graphics2D g2d) {
+		g2d.setColor(Color.GREEN);
+		g2d.fillRect(X, Y, with, height);
+	}
+}
